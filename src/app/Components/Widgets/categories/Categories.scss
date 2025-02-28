@@ -1,0 +1,22 @@
+.categories_sec{
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+            .img_wrap{
+                img{
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

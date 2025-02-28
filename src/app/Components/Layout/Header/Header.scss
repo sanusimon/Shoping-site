@@ -1,0 +1,13 @@
+.header{
+    padding: 10px 0;
+    .inner_{
+        display: flex;
+        justify-content: space-between;
+        .navigation{
+            ul{
+                display: flex;
+                gap: 20px
+            }
+        };
+    }
+}
